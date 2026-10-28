@@ -2,6 +2,17 @@
 
 Deterministic CENG567 Assignment 1 implementation. Python 3.10+.
 
+## Dungeon map
+
+![Dungeon Explorer fixed 7x7 map](docs/dungeon-map.png)
+
+The diagram shows the complete fixed layout for documentation. During gameplay,
+the renderer shows only the hero's current local view. Coordinates are zero-based
+(row, column): start/extraction at (0, 0), treasure at (6, 6), enemies at
+(2, 4) and (3, 2), and spike traps at (3, 3), (4, 5), and (5, 3).
+The legend labels mean Start (green), Treasure (yellow), Enemy (red), and
+Spike trap (orange); dark gray cells are walls.
+
 ## Run
 
 Open a terminal in this directory:
