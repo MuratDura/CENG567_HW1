@@ -1,0 +1,14 @@
+|decision_index|action|old_pos|new_pos|world_time|hp|energy|camp_kits|enemy_flags|has_treasure|trap_active|reward|terminated|truncated|event|enemies_killed|
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|1|MOVE_RIGHT|(0, 0)|(0, 1)|1|3|19|2|[1, 1]|False|False|-0.4|False|False|move|0|
+|2|MOVE_RIGHT|(0, 1)|(0, 2)|2|3|18|2|[1, 1]|False|False|-0.4|False|False|move|0|
+|3|MOVE_RIGHT|(0, 2)|(0, 3)|3|3|17|2|[1, 1]|False|True|-0.4|False|False|move|0|
+|4|MOVE_RIGHT|(0, 3)|(0, 4)|4|3|16|2|[1, 1]|False|False|-0.4|False|False|move|0|
+|5|MOVE_RIGHT|(0, 4)|(0, 5)|5|3|15|2|[1, 1]|False|False|-0.4|False|False|move|0|
+|6|MOVE_RIGHT|(0, 5)|(0, 6)|6|3|14|2|[1, 1]|False|True|-0.4|False|False|move|0|
+|7|MOVE_DOWN|(0, 6)|(1, 6)|7|3|13|2|[1, 1]|False|False|-0.4|False|False|move|0|
+|8|MOVE_DOWN|(1, 6)|(2, 6)|8|3|12|2|[1, 1]|False|False|-0.4|False|False|move|0|
+|9|MOVE_DOWN|(2, 6)|(3, 6)|9|3|11|2|[1, 1]|False|True|-0.4|False|False|move|0|
+|10|MOVE_LEFT|(3, 6)|(3, 5)|10|3|10|2|[1, 1]|False|False|-0.4|False|False|move|0|
+|11|WAIT|(3, 5)|(3, 5)|11|3|9|2|[1, 1]|False|False|-0.4|False|False|wait|0|
+|12|MOVE_DOWN|(3, 5)|(3, 5)|12|2|6|2|[1, 1]|False|True|-12.799999999999999|False|False|move;spike_bounce|0|
